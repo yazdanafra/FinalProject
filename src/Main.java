@@ -664,7 +664,7 @@ class ReloadAll {
 
             Person person = new Person(code, firstName, sex, (int) age, (int) wallet);
             Registry.people.add(person);
-            System.out.println("User " + firstName + " with code " + code + " reloaded");
+            System.out.println("User " + firstName + " with code " + code + " reloaded.");
         }
     }
 }
